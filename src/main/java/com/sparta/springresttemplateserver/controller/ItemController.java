@@ -3,7 +3,7 @@ package com.sparta.springresttemplateserver.controller;
 import com.sparta.springresttemplateserver.dto.ItemResponseDto;
 import com.sparta.springresttemplateserver.dto.UserRequestDto;
 import com.sparta.springresttemplateserver.entity.Item;
-import com.sparta.springresttemplateserver.dto.ItemService;
+import com.sparta.springresttemplateserver.service.ItemService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
